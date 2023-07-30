@@ -1,0 +1,27 @@
+/* Carousel dark indicators */
+/* Add an extra .carousel parent class to increase specifity
+   avoiding the use of !important flag. */
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #444;
+}
+
+/* Only for beautify example */
+h1 {
+  margin: 60px auto;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+.titre{
+  color: blue;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
